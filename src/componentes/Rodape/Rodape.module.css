@@ -1,0 +1,56 @@
+.container_rodape {
+    width: 100%;
+    padding: 100px 20px 20px;
+    background-color: var(--texto-escuro);
+}
+
+.conteudo_rodape {
+    font-size: 16px;
+    color: var(--texto-claro);
+    max-width: 1024px;
+    margin: 0 auto 80px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container_imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.rodape_imagem {
+    width: 100%;
+    height: 100%;
+}
+
+.container_texto {
+    width: 20%;
+    min-width: 200px; /*evita quebrar demais no mobile */
+    padding: 0px 20px;
+}
+
+.container_texto span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.conatianer_horario {
+    text-transform: uppercase;
+}
+
+.desenvolvedor {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    color: var(--texto-claro);
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.desenvolvedor span{
+    font-weight: 700;
+}

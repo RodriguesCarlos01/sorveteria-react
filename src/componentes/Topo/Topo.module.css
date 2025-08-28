@@ -1,0 +1,36 @@
+.container_topo {
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+    position: fixed;
+}
+
+.container_navegacao {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo_container_img {
+    width: 100px;
+    height: 100px;
+}
+
+.topo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.topo_navegacao {
+    padding: 20px 0px;
+    display: flex;
+    gap: 40px;
+}
+
+.topo_link {
+    color: var(--texto-escuro);
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
