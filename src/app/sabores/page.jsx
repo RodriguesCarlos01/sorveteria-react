@@ -1,11 +1,13 @@
 
+import BannerSabores from "@/componentes/BannerSabores";
 import estilos from "./page_sabores.module.css";
+import ConteudoSabores from "@/componentes/ConteudoSabores";
 
 export default function SaboresBanner() {
     return(
         <main className={estilos.container_banner_sabores}>
-
-            <h1>nova pagina</h1>
+            <BannerSabores />
+            <ConteudoSabores />
 
         </main>
     )
