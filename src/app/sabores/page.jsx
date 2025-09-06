@@ -5,7 +5,7 @@ import ConteudoSabores from "@/componentes/ConteudoSabores";
 
 export default function SaboresBanner() {
     return(
-        <main className={estilos.container_banner_sabores}>
+        <main className={estilos.container_page_sabores}>
             <BannerSabores />
             <ConteudoSabores />
 

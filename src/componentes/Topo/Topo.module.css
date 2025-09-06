@@ -2,6 +2,7 @@
     width: 100%;
     background-color: var(--cor-de-fundo);
     position: fixed;
+     z-index: 1000; /*evita que o hover do card sobreponha ao Topo */
 }
 
 .container_navegacao {
